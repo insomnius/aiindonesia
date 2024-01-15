@@ -6,4 +6,8 @@
 # Setelah itu, jalankan program dan pastikan tidak ada lagi pemberitahuan error pada program
 
 list = [1, 3, 5, 7, 9, 11, 13, 15]
-print(list[20])
+
+try:
+  print(list[20])
+except IndexError:
+  print("tuhkan error")
