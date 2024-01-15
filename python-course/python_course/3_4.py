@@ -16,8 +16,12 @@ hero_rank = Rank("Heroic", 5)
 
 print(f"{player_hero.name} enters the {forest_area.name}.")
 print(f"{player_hero.name} encounters a {enemy.name}.")
-player_hero.attack(enemy)
-print(f"{enemy.name} health: {enemy.health}")
+
+while enemy.health > 0:
+  player_hero.attack(enemy)
+  print(f"{enemy.name} health: {enemy.health}")
+
+print(f"{enemy.name} already death.")
 
 print(f"{player_hero.name} finds a {sword.name}: {sword.description}")
 
