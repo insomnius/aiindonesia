@@ -7,9 +7,6 @@ services:
       container_name: jupyter_notebook
       volumes:
       - aiindonesia_repository:${PWD}
-      command: "start-notebook.sh \
-        --NotebookApp.password=jalansukses \
-        --NotebookApp.certfile=/etc/ssl/notebook/jupyter.pem"
 
 volumes:
   aiindonesia_repository:
