@@ -6,8 +6,4 @@ services:
         - 8888:8888
       container_name: jupyter_notebook
       volumes:
-      - aiindonesia_repository:${PWD}
-
-volumes:
-  aiindonesia_repository:
-    name: aiindonesia_repository
+      - ${PWD}:/home/jovyan/work
