@@ -1,0 +1,81 @@
+Inferrence
+
+To be removed:
+
+1. ID: not relevant
+2. MSSubClass: not relevant
+3. MSZoning: not relevant
+4. Alley: not relevant
+5. LotShape: not relevant
+6. Utilities: not relevant, to many data in AllPub
+7. Condition2: the value is not well spreaded
+8. RoofStyle: not well spreaded
+9. SalePrice: not well spereaded
+10. LowQualFinSF: too much null
+11. BsmtFullBath: not relevant
+12. BsmtHalfBath: not relevant
+13. BedroomAbvGr: not relevant
+14. KitchenAbvGr: somehow not relevant
+15. Functional: not relevant, not well spreaded
+16. Fireplaces: not relevant
+17. FireplaceQu: not relevant
+18. GarageType: not relevant
+19: GarageCars: not relevant
+20. PoolArea: most data missing
+21. PoolQC: most data missing
+22. MiscFeature: too many missing values
+23. MiscVal: too many missing values
+24. MoSold: not relevant
+25. YrSold: not relevant
+
+To be included:
+
+1. LotFrontage: somehow relevant?? use median for null
+2. LotArea: somehow relevant?? use median for null
+3. LotConfig: need to be included for more explorations
+4. LandSlope: need to be included for more explorations
+5. LandContour: need to be included for more explorations
+6. Neighborhood: need to be included for more explorations
+7. Condition 1: need to be included for more explorations
+8. BldgType: need to be included for more explorations
+9. HouseStyle: need to be included for more explorations
+10. OverallQual: somehow relevant?
+11. OverallCond: somehow well spreaded, but we have to use median value for outlier
+12. YearBuilt: included. use median value for outlier
+13. YearRemodAdd: somehow relevant
+14. Exterior1st: somehow relevant
+15. Exterior2nd: somehow relevant
+16. MasVnrType: seems like well spreaded
+17. MasVnrArea: use median for null value
+18. BsmtQual: need for more explorations
+19. BsmtCond: need for more explorations
+20. BsmtExposure: included
+21. BsmtFinType1: included
+21. BsmtFinType2: included
+22. BsmtFinSF1: relevant, use null value with median
+23. BsmtFinSF2: relevant, use null value with median
+24. BsmtUnfSF: relevant, use null value with median
+25. TotalBsmtSF: relevant, use null value with median
+26. Electrical: included
+27. 1stFlrSF: relevant, use median for null value
+28. 2ndFlrSF: relevant, use median for null value
+29. GrLivArea: relevant
+30. FullBath: the trend is relevant
+31. KitchenQual: use most popular categories
+32. TotRmsAbvGrd: relevant, use medan
+33. GarageYrBlt: relevant, use median
+34. GarageFinish: value is well spread, use most categories fo n/a
+35. GarageArea: included, unll with median
+36. GarageQual: included, use most categories for n/a
+37. PavedDrive: included
+38. WoodDeckSF: included, use median
+39. OpenPorchSF: included, use median
+40. EnclosedPorch: included, use median
+41. Fence: included
+42. BuiltToSale: relevant, use median
+43. SaleType: use most categories
+44. SaleCondition: use most categoriess
+
+In confussion:
+
+1. Street: Gravel somehow less pricy than pave road
